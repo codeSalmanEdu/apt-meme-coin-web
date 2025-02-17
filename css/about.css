@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Alfa+Slab+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .about-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction:column ;
+
+}
+.abt-banner-head{
+    position: absolute;
+    top: 30%;
+}
+.about-banner-img{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-banner-img > img{
+    width: 600px;
+    height: 600px;
+    position:absolute;
+    top: 67%;
+    left: 30%;
+}
+
+
+.inspiration{
+    position: absolute;
+    top: 62%;
+    left: 12%;
+    font-size: 50px;
+    
+}
+.inspiration > img{
+    width: 375px;
+    height: 250px;
+}
+.vission{
+    position: absolute;
+    top: 59%;
+    left: 60%;
+    font-size: 50px;
+}
+.vission > img{
+    width: 375px;
+    height: 250px;
+}
+
+
+.why-apt{
+    z-index: 1;
+    position: relative;
+    top: 8%;
+    left: 18%;
+
+}
+.why-apt > img{
+    width: 375px;
+    height: 250px;
+}
