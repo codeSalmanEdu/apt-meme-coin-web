@@ -102,20 +102,18 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 40px;
     gap: 20px;
 }
 
-.buy-now,
-.join-now {
+.buy-now {
     background: none;
     border: none;
+     /* position: absolute;
+    top: 80%; */
+    margin-top: 10px;
 }
 
-.buy-now img {
-    width: 187px;
-
-}
 
 
 .buy-now:hover {
@@ -162,10 +160,9 @@ p {
     transform: rotate(5deg);
 }
 
-.buy-now{
-    position: absolute;
-    top: 85%;   
-}
+
+      
+
 .buy-now > img {
     width: 187px;
     height: 52px;
